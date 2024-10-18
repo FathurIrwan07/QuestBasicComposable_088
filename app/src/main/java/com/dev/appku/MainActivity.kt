@@ -54,9 +54,14 @@ fun BasicCompose(
         ){
         Text(text = "Manchester City",
             modifier = modifier.padding(bottom = 20.dp),
-
+        style = TextStyle (
+            fontSize = 50.sp,
+            fontWeight = FontWeight.Bold,
+            color = Color.Blue
 
         )
+        )
+
 
     }
 }
