@@ -59,8 +59,11 @@ fun BasicCompose(
             fontWeight = FontWeight.Bold,
             color = Color.Blue
 
+        ),
         )
+        Text(text = "Klub Sepak Bola",
         )
+
 
 
     }
