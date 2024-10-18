@@ -51,11 +51,17 @@ fun BasicCompose(
     Column (horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center,
         modifier = Modifier.fillMaxSize()
-        ) {
+        ){
+        Text(text = "Manchester City",
+            modifier = modifier.padding(bottom = 20.dp),
 
+
+        )
 
     }
 }
+
+
 
 
 
