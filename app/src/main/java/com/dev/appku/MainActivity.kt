@@ -62,6 +62,9 @@ fun BasicCompose(
         ),
         )
         Text(text = "Klub Sepak Bola",
+            modifier = Modifier.padding(bottom =20.dp),
+            fontWeight = FontWeight.Bold,
+            fontSize = 20.sp
         )
 
 
