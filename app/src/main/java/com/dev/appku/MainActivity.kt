@@ -48,12 +48,14 @@ class MainActivity : ComponentActivity() {
 fun BasicCompose(
     modifier: Modifier = Modifier
 ) {
+    Column (horizontalAlignment = Alignment.CenterHorizontally,
+        verticalArrangement = Arrangement.Center,
+        modifier = Modifier.fillMaxSize()
+        ) {
 
 
-
+    }
 }
-
-
 
 
 
