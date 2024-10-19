@@ -81,8 +81,21 @@ fun BasicCompose(
             fontSize = 20.sp
         )
 
+        Text(text = "Muhamad Fathur Irwan ",
+          //  modifier = modifier.padding(bottom = 5.dp),
+            fontWeight = FontWeight.Bold,
+            fontSize = 25.sp,
+
+        )
+
 
 
     }
 }
+
+
+
+
+
+
 
