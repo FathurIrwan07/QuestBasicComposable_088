@@ -96,6 +96,9 @@ fun BasicCompose(
 
         )
 
+        Image(painterResource(id = R.drawable.fathur), contentDescription = " ",
+            modifier = Modifier.size(300.dp).padding(bottom = 20.dp).clip(RoundedCornerShape(60.dp))
+        )
 
     }
 }
