@@ -88,6 +88,13 @@ fun BasicCompose(
 
         )
 
+            Text(text = "20220140088 ",
+          //  modifier = modifier.padding(bottom = 5.dp),
+            fontWeight = FontWeight.Bold,
+            fontSize = 25.sp,
+                color = Color.Blue
+
+        )
 
 
     }
