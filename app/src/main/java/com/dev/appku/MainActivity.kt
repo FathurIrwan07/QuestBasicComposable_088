@@ -51,15 +51,15 @@ fun BasicCompose(
     Column (horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center,
         modifier = Modifier.fillMaxSize()
-        ){
+    ){
         Text(text = "Manchester City",
             modifier = modifier.padding(bottom = 20.dp),
-        style = TextStyle (
-            fontSize = 50.sp,
-            fontWeight = FontWeight.Bold,
-            color = Color.Blue
+            style = TextStyle (
+                fontSize = 50.sp,
+                fontWeight = FontWeight.Bold,
+                color = Color.Blue
 
-        ),
+            ),
         )
         Text(text = "Klub Sepak Bola",
             modifier = Modifier.padding(bottom =20.dp),
@@ -70,29 +70,29 @@ fun BasicCompose(
 
 
         Image(painterResource(id = R.drawable.logo), contentDescription = "logo",
-        modifier = Modifier.size(300.dp).padding(bottom = 20.dp)
+            modifier = Modifier.size(300.dp).padding(bottom = 20.dp)
         )
 
 
 
         Text(text = "Nama :",
-          //  modifier = modifier.padding(bottom = 5.dp),
+            //  modifier = modifier.padding(bottom = 5.dp),
             fontWeight = FontWeight.Bold,
             fontSize = 20.sp
         )
 
         Text(text = "Muhamad Fathur Irwan ",
-          //  modifier = modifier.padding(bottom = 5.dp),
+            //  modifier = modifier.padding(bottom = 5.dp),
             fontWeight = FontWeight.Bold,
             fontSize = 25.sp,
 
-        )
+            )
 
-            Text(text = "20220140088 ",
-          //  modifier = modifier.padding(bottom = 5.dp),
+        Text(text = "20220140088 ",
+            //  modifier = modifier.padding(bottom = 5.dp),
             fontWeight = FontWeight.Bold,
             fontSize = 25.sp,
-                color = Color.Blue
+            color = Color.Blue
 
         )
 
@@ -102,9 +102,6 @@ fun BasicCompose(
 
     }
 }
-
-
-
 
 
 
