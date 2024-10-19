@@ -74,5 +74,12 @@ fun BasicCompose(
         )
 
 
+
+        Text(text = "Nama :",
+
+        )
+
+
     }
 }
+
