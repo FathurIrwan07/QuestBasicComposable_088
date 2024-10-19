@@ -76,8 +76,11 @@ fun BasicCompose(
 
 
         Text(text = "Nama :",
-
+          //  modifier = modifier.padding(bottom = 5.dp),
+            fontWeight = FontWeight.Bold,
+            fontSize = 20.sp
         )
+
 
 
     }
