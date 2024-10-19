@@ -69,12 +69,10 @@ fun BasicCompose(
 
 
 
+        Image(painterResource(id = R.drawable.logo), contentDescription = "logo",
+        modifier = Modifier.size(300.dp).padding(bottom = 20.dp)
+        )
+
+
     }
 }
-
-
-
-
-
-
-
